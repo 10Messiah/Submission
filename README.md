@@ -18,3 +18,16 @@
 
 # Abnormal Driving Event Recognition Net(ADER-Net)
  * You can find the codes in './ADER-net'.
+ 1. Add the dir of the txt files in './ADER-Net/data_load.py'  and  add the dir of the image file folders in './ADER-Net/options.py'
+ 2. To train the ADER-Net model, run
+ ```python
+    python ADER-Net/train.py
+ ``` 
+ 3. To test the ADER-Net model, update the dir of the weight and run
+ ```python
+    python ADER-Net/test.py
+ ``` 
+ 4. To evaluate the ADER-Net model, run
+ ```python
+    python ADER-Net/evalution.py
+ ``` 
