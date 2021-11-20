@@ -17,7 +17,7 @@ The architecture of the proposed ADER-Net. (a) The overall architecture of the p
    * You can find the annotation in './annotation/annotation.xls'.
    ![fig4](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_11.png)  
    The video amount distribution w.r.t. every event category.  
-   We divided all abnormal driving events into following six categories：
+   We divided all abnormal driving events into following six categories:  
    driving normally (DN), avoiding crossing pedestrians (ACP), waiting for vehicles ahead (WVA), stopped by the red lights (SRL), stopped by the stop signs (SSS) and avoiding a lane-changing car (ALC).  
    The training set and test set also can be found in './annotation/annotation.xls'.
    
