@@ -13,7 +13,7 @@ def str_2_list(str_tmp):
     return list_res
 
 
-file = open('results/test_result_5.txt',mode='r')
+file = open('results/res.txt',mode='r')
 lines = file.readlines()
 test_cnt = math.floor(len(lines) / 2)
 
