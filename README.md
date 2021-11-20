@@ -4,8 +4,12 @@ It is important to research the types of abnormal driving event that cause a shi
 
 # Architecture
 
-![fig1](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_2.PNG）  
+![fig1](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_2.PNG) 
+The architecture of the proposed ADER-Net. (a) The overall architecture of the proposed ADER-Net. (b) The detailed architecture of the driver’s attention predicting model.
 
+# Experiment Results
+  * Comparison to State-of-the-Art Models
+  * Results of the classification
 # Abnormal Driving Event Dataset(ADED)
    * You can find the annotation in './annotation/annotation.xls'.
    * To obtain ADED dataset, follow these steps:
