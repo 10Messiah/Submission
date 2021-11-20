@@ -4,14 +4,20 @@ It is important to research the types of abnormal driving event that cause a shi
 
 # Architecture
 
-![fig1](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_2.PNG) 
+![fig1](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_2.png) 
 The architecture of the proposed ADER-Net. (a) The overall architecture of the proposed ADER-Net. (b) The detailed architecture of the driver’s attention predicting model.
 
 # Experiment Results
   * Comparison to State-of-the-Art Models
+  ![fig2](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_3.png) 
   * Results of the classification
+  ![fig3](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_3.png) 
 # Abnormal Driving Event Dataset(ADED)
    * You can find the annotation in './annotation/annotation.xls'.
+   ![fig4](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_1.png) 
+   We divided all abnormal driving events into following six categories：
+   driving normally (DN), avoiding crossing pedestrians (ACP), waiting for vehicles ahead (WVA), stopped by the red lights (SRL), stopped by the stop signs (SSS) and avoiding a lane-changing car (ALC).
+   
    * To obtain ADED dataset, follow these steps:
    1. Get BDD-A dataset from [the website](https://bdd-data.berkeley.edu/), and unzip the file.
    2. Download this project.
