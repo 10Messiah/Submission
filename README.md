@@ -14,10 +14,10 @@ The architecture of the proposed ADER-Net. (a) The overall architecture of the p
   ![fig3](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_3.png) 
 # Abnormal Driving Event Dataset(ADED)
    * You can find the annotation in './annotation/annotation.xls'.
-   ![fig4](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_1.png) 
+   ![fig4](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_11.png) 
    We divided all abnormal driving events into following six categories：
-   driving normally (DN), avoiding crossing pedestrians (ACP), waiting for vehicles ahead (WVA), stopped by the red lights (SRL), stopped by the stop signs (SSS) and avoiding a lane-changing car (ALC).
-   
+   driving normally (DN), avoiding crossing pedestrians (ACP), waiting for vehicles ahead (WVA), stopped by the red lights (SRL), stopped by the stop signs (SSS) and avoiding a lane-changing car (ALC).  
+   The training set and test set also can be found in './annotation/annotation.xls'.
    * To obtain ADED dataset, follow these steps:
    1. Get BDD-A dataset from [the website](https://bdd-data.berkeley.edu/), and unzip the file.
    2. Download this project.
