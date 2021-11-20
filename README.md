@@ -3,7 +3,7 @@
 It is important to research the types of abnormal driving event that cause a shift in a driver’s spatial attention.  We built an abnormal driving event dataset (ADED) based on the interaction between driver’s attention allocation and other traffic participants or elements. We relabeled and redivided BDD-A, a driver attention dataset in critical traffic situations, into six different semantic categories ofdriving events. The new ADED is introduced for abnormal driving event recognition. In addition, we proposed an abnormal driving event recognition model (called ADER-Net) with driver’s attention guidance to recognize what causes a driver’s attention reallocation. In ADER-Net, a driver’s attention-guided (DAG) branch is constructed to consider the driver’s spatial attention information. 
 
 # Architecture
-
+![](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_2.PNG）  
 
 # Abnormal Driving Event Dataset(ADED)
    * You can find the annotation in './annotation/annotation.xls'.
