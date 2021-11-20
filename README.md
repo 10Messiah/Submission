@@ -15,10 +15,13 @@ The architecture of the proposed ADER-Net. (a) The overall architecture of the p
   Another clearer version can be found in './images/fig_4.pdf'.
 # Abnormal Driving Event Dataset(ADED)
    * You can find the annotation in './annotation/annotation.xls'.
-   ![fig4](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_11.png) 
+   ![fig4](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_11.png)  
+   The video amount distribution w.r.t. every event category.  
    We divided all abnormal driving events into following six categories：
    driving normally (DN), avoiding crossing pedestrians (ACP), waiting for vehicles ahead (WVA), stopped by the red lights (SRL), stopped by the stop signs (SSS) and avoiding a lane-changing car (ALC).  
    The training set and test set also can be found in './annotation/annotation.xls'.
+   
+   
    * To obtain ADED dataset, follow these steps:
    1. Get BDD-A dataset from [the website](https://bdd-data.berkeley.edu/), and unzip the file.
    2. Download this project.
@@ -26,7 +29,7 @@ The architecture of the proposed ADER-Net. (a) The overall architecture of the p
 ```python
     python tools/rename_split.py
  ``` 
-   You may get several file folders. '../dataset/training_set_img' and '../dataset/test_set_img' are the file folders that contain images that are used to train and test model for recognizing the abnormal driving events. '../dataset/training_att_set_img' and '../dataset/test_att_set_img' are the file folders for training and testing model to predict the driver attention maps.
+   You may get several file folders. '../dataset/training_set_img' and '../dataset/test_set_img' are the file folders that contain images that are used to train and test models for recognizing the abnormal driving events. '../dataset/training_att_set_img' and '../dataset/test_att_set_img' are the file folders for training and testing models to predict the driver attention maps.
    
    4. Create the label file. --- Run
 ```python
