@@ -4,23 +4,21 @@ It is important to research the types of abnormal driving event that cause a shi
 
 # Architecture
 
-![fig1](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_22.png)   
-fig1 can also be found in './images/fig_11.png'.  
-The architecture of the proposed ADER-Net. (a) The overall architecture of the proposed ADER-Net. (b) The detailed architecture of the driver’s attention predicting model.
+![fig1](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_1.png)  
+The architecture of the proposed ADER-Net. (a) The overall architecture of the proposed ADER-Net. (b) The detailed architecture of the driver’s attention predicting model.(fig1 can also be found in './images/fig_1.png'.)
 
 # Experiment Results
   * Comparison to State-of-the-Art Models
-  ![fig2](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_3.png)  
-  fig2 can also be found in './images/fig_22.png'.  
+  ![fig2](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_2.png)  
+  fig2 can also be found in './images/fig_2.png'.  
   * Results of the classification
-  ![fig3](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_4.png)  
-  fig1 can also be found in './images/fig_11.png'.  
-  Another clearer version can be found in './images/fig_4.pdf'.
+  ![fig3](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_3.png)  
+  fig3 can also be found in './images/fig_3.png'.  
+  Another clearer version can be found in './images/fig_3.pdf'.
 # Abnormal Driving Event Dataset(ADED)
    * You can find the annotation in './annotation/annotation.xls'.
-   ![fig4](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_11.png)  
-   fig1 can also be found in './images/fig_11.png'.  
-   The video amount distribution w.r.t. every event category.  
+   ![fig4](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_4.png)  
+   The video amount distribution w.r.t. every event category.(fig4 can also be found in './images/fig_4.png'. )  
    We divided all abnormal driving events into following six categories:  
    driving normally (DN), avoiding crossing pedestrians (ACP), waiting for vehicles ahead (WVA), stopped by the red lights (SRL), stopped by the stop signs (SSS) and avoiding a lane-changing car (ALC).  
    The training set and test set also can be found in './annotation/annotation.xls'.
