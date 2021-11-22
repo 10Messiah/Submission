@@ -10,10 +10,10 @@ The architecture of the proposed ADER-Net. (a) The overall architecture of the p
 # Experiment Results
   * Comparison to State-of-the-Art Models
   ![fig2](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_2.png)  
-  fig2 can also be found in './images/fig_2.png'.  
+  (fig2 can also be found in './images/fig_2.png'.)  
   * Results of the classification
   ![fig3](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_3.png)  
-  fig3 can also be found in './images/fig_3.png'.  
+  (fig3 can also be found in './images/fig_3.png'.)  
   Another clearer version can be found in './images/fig_3.pdf'.
 # Abnormal Driving Event Dataset(ADED)
    * You can find the annotation in './annotation/annotation.xls'.
