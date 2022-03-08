@@ -15,7 +15,7 @@ The architecture of the proposed DER-Net. (a) The overall architecture of the pr
   ![fig3](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_3.png)  
   (fig3 can also be found in './images/fig_3.png'.)  
   Another clearer version can be found in './images/fig_3.pdf'.
-# Abnormal Driving Event Dataset(ADED)
+# Attention-based Driving Event Dataset(ADED)
    * You can find the annotation in './annotation/annotation.xls'.
    ![fig4](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_4.png)  
    The video amount distribution w.r.t. every event category.(fig4 can also be found in './images/fig_4.png'. )  
@@ -39,7 +39,7 @@ The architecture of the proposed DER-Net. (a) The overall architecture of the pr
  ``` 
    You may get four txt files. '../dataset/16_frames_training.txt' and  '../dataset/16_frames_test.txt' can be used to load sequences and corresponding labels to train and test models for abnormal driving event recognization. '../dataset/attention_train.txt' and  '../dataset/attention_test.txt' can be used to load images and corresponding attention maps to train and test models for predicting the driver attention maps. 
 
-# Abnormal Driving Event Recognition Net(DER-Net)
+# Driving Event Recognition Net(DER-Net)
  * You can find the codes in './ADER-net'.
  1. Add the dir of the txt files in './ADER-Net/data_load.py'  and  add the dir of the image file folders in './ADER-Net/options.py'
  2. To train the ADER-Net model, run
