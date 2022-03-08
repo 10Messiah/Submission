@@ -40,17 +40,17 @@ The architecture of the proposed DER-Net. (a) The overall architecture of the pr
    You may get four txt files. '../dataset/16_frames_training.txt' and  '../dataset/16_frames_test.txt' can be used to load sequences and corresponding labels to train and test models for abnormal driving event recognization. '../dataset/attention_train.txt' and  '../dataset/attention_test.txt' can be used to load images and corresponding attention maps to train and test models for predicting the driver attention maps. 
 
 # Driving Event Recognition Net(DER-Net)
- * You can find the codes in './DER-net'.
- 1. Add the dir of the txt files in './DER-Net/data_load.py'  and  add the dir of the image file folders in './DER-Net/options.py'
+ * You can find the codes in './ADER-net'.
+ 1. Add the dir of the txt files in './ADER-Net/data_load.py'  and  add the dir of the image file folders in './ADER-Net/options.py'
  2. To train the DER-Net model, run
  ```python
-    python DER-Net/train.py
+    python ADER-Net/train.py
  ``` 
  3. To test the DER-Net model, update the dir of the weight and run
  ```python
-    python DER-Net/test.py
+    python ADER-Net/test.py
  ``` 
  4. To evaluate the DER-Net model, run
  ```python
-    python DER-Net/evalution.py
+    python ADER-Net/evalution.py
  ``` 
