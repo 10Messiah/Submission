@@ -1,11 +1,11 @@
-# What Causes a Driver’s Attention Reallocation? A Driver’s Attention-Guided Abnormal Driving Event Recognition Model on Untrimmed Driving Videos
+# A Driver’s Attention-Guided Driving Event Recognition Model on Untrimmed Driving Videos
 # Abstract
-It is important to research the types of abnormal driving event that cause a shift in a driver’s spatial attention.  We built an abnormal driving event dataset (ADED) based on the interaction between driver’s attention allocation and other traffic participants or elements. We relabeled and redivided BDD-A, a driver attention dataset in critical traffic situations, into six different semantic categories of driving events. The new ADED is introduced for abnormal driving event recognition. In addition, we proposed an abnormal driving event recognition model (called ADER-Net) with driver’s attention guidance to recognize what causes a driver’s attention reallocation. In ADER-Net, a driver’s attention-guided (DAG) branch is constructed to consider the driver’s spatial attention information. 
+Despite much effort to try to research driver’s spatial attention allocation in driving situations, the computer vision community rarely focuses on what causes driver’s attention shifts. In this paper, we built an attention-based driving event dataset (ADED) constructed from the attention distributed on the traffic participants or elements and proposed a model using driver’s attention to better recognize the events that cause driver’s attention shifts. We relabeled and redivided BDD-A, a driver attention dataset in critical traffic situations, into six different semantic categories of driving events. The new dataset is introduced for driving event recognition. In addition, we proposed a special driving event recognition model (called DER-Net) with driver’s attention guidance to recognize the event causes a driver’s attention shift. In DER-Net, a driver’s attention-guided (DAG) branch is constructed to consider the driver’s spatial attention information. The proposed model achieves a superior performance compared to other state-ofthe-art models in action recognition. In ablation study, many experiments are conducted to discuss the optimum length of the sequence to input the model and the best location to introduce the driver’s attention-guided information. Furthermore, the model visualization is also carried out to prove the effectiveness of the DAG branch.
 
 # Architecture
 
 ![fig1](https://github.com/10Messiah/ADED-ADER/blob/main/images/fig_1.png)  
-The architecture of the proposed ADER-Net. (a) The overall architecture of the proposed ADER-Net. (b) The detailed architecture of the driver’s attention predicting model.(fig1 can also be found in './images/fig_1.png'.)
+The architecture of the proposed DER-Net. (a) The overall architecture of the proposed DER-Net. (b) The detailed architecture of the driver’s attention predicting model.(fig1 can also be found in './images/fig_1.png'.)
 
 # Experiment Results
   * Comparison to State-of-the-Art Models
@@ -39,7 +39,7 @@ The architecture of the proposed ADER-Net. (a) The overall architecture of the p
  ``` 
    You may get four txt files. '../dataset/16_frames_training.txt' and  '../dataset/16_frames_test.txt' can be used to load sequences and corresponding labels to train and test models for abnormal driving event recognization. '../dataset/attention_train.txt' and  '../dataset/attention_test.txt' can be used to load images and corresponding attention maps to train and test models for predicting the driver attention maps. 
 
-# Abnormal Driving Event Recognition Net(ADER-Net)
+# Abnormal Driving Event Recognition Net(DER-Net)
  * You can find the codes in './ADER-net'.
  1. Add the dir of the txt files in './ADER-Net/data_load.py'  and  add the dir of the image file folders in './ADER-Net/options.py'
  2. To train the ADER-Net model, run
