@@ -4,20 +4,20 @@ Despite much effort to try to research driver’s spatial attention allocation i
 
 # Architecture
 
-![fig1](https://github.com/10Messiah/ADED-DER/blob/main/images/fig_1.png)  
+![fig1](https://github.com/10Messiah/ADED--DER/blob/main/images/fig_1.png)  
 The architecture of the proposed DER-Net. (a) The overall architecture of the proposed DER-Net. (b) The detailed architecture of the driver’s attention predicting model.(fig1 can also be found in './images/fig_1.png'.)
 
 # Experiment Results
   * Comparison to State-of-the-Art Models
-  ![fig2](https://github.com/10Messiah/ADED-DER/blob/main/images/fig_2.png)  
+  ![fig2](https://github.com/10Messiah/ADED--DER/blob/main/images/fig_2.png)  
   (fig2 can also be found in './images/fig_2.png'.)  
   * Results of the classification
-  ![fig3](https://github.com/10Messiah/ADED-DER/blob/main/images/fig_3.png)  
+  ![fig3](https://github.com/10Messiah/ADED--DER/blob/main/images/fig_3.png)  
   (fig3 can also be found in './images/fig_3.png'.)  
   Another clearer version can be found in './images/fig_3.pdf'.
 # Attention-based Driving Event Dataset(ADED)
    * You can find the annotation in './annotation/annotation.xls'.
-   ![fig4](https://github.com/10Messiah/ADED-DER/blob/main/images/fig_4.png)  
+   ![fig4](https://github.com/10Messiah/ADED--DER/blob/main/images/fig_4.png)  
    The video amount distribution w.r.t. every event category.(fig4 can also be found in './images/fig_4.png'. )  
    We divided all abnormal driving events into following six categories:  
    driving normally (DN), avoiding crossing pedestrians (ACP), waiting for vehicles ahead (WVA), stopped by the red lights (SRL), stopped by the stop signs (SSS) and avoiding a lane-changing car (ALC).  
