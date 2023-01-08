@@ -5,7 +5,7 @@ Despite much effort to try to research driver’s spatial attention allocation i
 
 # Architecture
 
-![fig1](https://github.com/10Messiah/Submission/blob/main/images/fig_1.png)  
+![fig1](https://github.com/10Messiah/Submission/blob/main/images/fig1.png)  
 The architecture of the proposed DER-Net. (fig1 can also be found in './images/fig_1.png'.)
 
 # Experiment Results
